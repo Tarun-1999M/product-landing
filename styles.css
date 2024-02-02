@@ -1,0 +1,151 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    
+}
+
+input[type="email"]{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"],button{
+    background-color: #7fa99b;
+    font-size:17px;
+    cursor: pointer;
+}
+
+/*header*/
+header{
+    display:flex;
+    position: fixed;
+    width: 100%;
+    top:0%;
+    justify-content: space-between;
+    background-color: #fbf2d5;
+    padding:0 20px;
+    align-items: center;
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header li{
+    margin:0 90px;
+    list-style: none;
+}
+
+/*user-details*/
+
+.user-details{
+    margin-bottom: 4em;
+    text-align: center;
+    margin:10em auto 4em auto;
+}
+
+/*body*/
+
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #fbf2d5;
+    
+    
+}
+
+/*features*/
+
+.image{
+    width:6em;
+    height:6em;
+    justify-self: end;
+    
+}
+
+#features{
+    display: grid;
+    grid-template-columns: minmax(auto,max-content) minmax(auto,max-content);
+    column-gap: 20px;
+    margin-bottom: 4em;
+    font-size: large;
+    justify-content: center;
+}
+
+/*how it works*/
+#Howitworks
+
+iframe{
+    display: block;
+    margin:0 auto;
+    margin-bottom: 4em;
+}
+
+/*pricing*/
+
+#pricing{
+    display: grid;
+    grid-template-columns:minmax(auto,max-content) minmax(auto,max-content) minmax(auto,max-content);
+    column-gap: 20px;
+    margin-bottom: 4em;
+    justify-content: center;
+}
+.course{
+    border:1px solid black;
+    border-radius: 1px;
+    text-align: center;
+    padding:2px;
+    width:250px;
+    font-size: large;
+}
+
+.course .name{
+    padding:2px;
+    background-color:#fdc57b;
+    font-family:bold;
+}
+
+
+
+
+
+/*footer*/
+
+footer nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 0;
+    margin-right: 4px;
+}
+
+footer li{
+    margin:0 10px;
+    list-style: none;
+    cursor: pointer;
+}
+
+footer p{
+    text-align: end;
+    margin-top: 1px;
+    margin-right: 4px;
+}
+
+
+a{
+    text-decoration: none;
+    background-color: #fbf2d5;
+    
+}
+
+a:visited{
+    color:black;
+    
+}
+
+a:hover{
+    background-color:bisque;
+}
